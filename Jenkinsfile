@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label 'docker-jnlp-slave'
+    label 'docker-slave'
   }
     stages {
         stage ('Compile Stage') {
