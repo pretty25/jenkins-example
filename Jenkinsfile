@@ -1,6 +1,7 @@
 pipeline {
   agent {
-    label 'docker-slave'
+   // label 'docker-slave'
+   label 'java11-maven'
   }
     stages {
         stage ('Compile Stage') {
